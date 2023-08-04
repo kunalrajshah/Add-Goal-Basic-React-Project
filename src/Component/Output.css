@@ -1,0 +1,11 @@
+.output-list{
+  border: 1px solid red;
+  width:40%;
+  margin:auto;
+  background-color: #8b005d;
+  color:white;
+  margin-top: 1%;
+  padding:1%;
+  list-style: none;
+}
+
