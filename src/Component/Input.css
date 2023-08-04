@@ -33,3 +33,12 @@
   border: none;
   border-radius:10%;
 }
+
+/* Adding css Dynamically */
+.content.invalid input{
+  border-color: rgb(227, 23, 23);
+}
+
+.content.invalid button{
+  background-color: rgb(216, 103, 103);
+}

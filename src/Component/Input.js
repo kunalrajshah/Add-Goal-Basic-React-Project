@@ -21,19 +21,20 @@ const Input = (props) => {
   };
 
   return (
-    <div className="content">
+    // Adding className Dynamically
+    <div className={`content ${!isValid ? 'invalid' : ''}`}> 
       <h3>Course Goal</h3>
       <input
         type="text"
         value={inputVal}
         onChange={inputHandler}
-        style={{ borderColor: !isValid ? "indianred" : "black" }}
+        // style={{ borderColor: !isValid ? "indianred" : "black" }}
       ></input>
       <br />
       <button
         className="btn"
         onClick={getInput}
-        style={{ backgroundColor: !isValid ? "indianred" : "#8b005d" }}
+        // style={{ backgroundColor: !isValid ? "indianred" : "#8b005d" }}
       >
         Add Goal
       </button>
